@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome图标库 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-brand">Sean_Shenghao</div>
+        <ul class="nav-links">
+            <li><a href="#home">首页</a></li>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#portfolio">作品集</a></li>
+            <li><a href="#contact">联系方式</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首屏区域 -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>你好，我是<span class="highlight">Sean</span></h1>
+                <p class="subtitle">AI 产品PM / AI 视频爱好者 / 数据产品&分析师</p>
+                <div class="tags">
+                    <span class="tag">上手实践</span>
+                    <span class="tag">想象创造</span>
+                    <span class="tag">关注技术</span>
+                    <span class="tag">输入输出</span>
+                    <span class="tag">快速学习</span>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section id="about" class="about">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <p>
+                <span>专注于AI的产品经理，曾从事大数据与模型相关产品。</span>
+                <span>当前深耕AI多模态领域，推动从技术到产品的落地应用。</span>
+                <span>坚信持续实践与输出是成长的关键，如果你对AI视频、AIGC产品、LLM/LVM技术应用感兴趣，欢迎找我交流！</span>
+            </p>
+            <div class="skills-section">
+                <h3 class="skills-title">技能专长</h3>
+                <span class="skills-subtitle">Professional Skills</span>
+                <div class="skills">
+                    <div class="skill-item">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI产品</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-video"></i>
+                        <h3>AI视频</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-magic"></i>
+                        <h3>Prompt创作</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <h3>AI编程</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-pen-fancy"></i>
+                        <h3>AI写作</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>数据分析</h3>
+                    </div>
+                    <div class="skill-item">
+                        <i class="fas fa-palette"></i>
+                        <h3>UI设计</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品展示 -->
+    <section id="portfolio" class="portfolio">
+        <h2>内容分享</h2>
+        <div class="content-tabs">
+            <button class="tab-btn active" data-tab="wechat">公众号文章</button>
+            <button class="tab-btn" data-tab="jike">即刻精华</button>
+            <button class="tab-btn" data-tab="video">AI视频创作</button>
+        </div>
+        <div class="content-grid active" id="wechat-content">
+            <a href="https://mp.weixin.qq.com/s/RD1NKiQEtCZVIg845arnbQ" target="_blank" class="content-card">
+                <div class="card-image">
+                    <img src="images/pic1.png" alt="AI视频生成的场景痛点及产品功能设想">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">产品思考</div>
+                    <h3 class="card-title">AI视频生成的场景痛点及产品功能设想</h3>
+                    <p class="card-desc">深入分析AI视频生成产品的用户需求、功能设计及发展方向...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-07-15</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://mp.weixin.qq.com/s/cIVn_SE_73Dht-nBQ6NdVA" target="_blank" class="content-card">
+                <div class="card-image">
+                    <img src="images/reddit_pic.png" alt="Recraft为什么火了？产品深度解析">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">产品体验</div>
+                    <h3 class="card-title">Recraft为什么火了？产品深度解析</h3>
+                    <p class="card-desc">探讨在AI时代，独立开发者需要掌握的核心技能...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-12-13</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://mp.weixin.qq.com/s/WNK4Tb8FP3AEa3y-OVz3vQ" target="_blank" class="content-card">
+                <div class="card-image">
+                    <img src="images/luma_pic.png" alt="Luma最新版Dream Machine深度体验">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">产品体验</div>
+                    <h3 class="card-title">Luma最新版Dream Machine深度体验</h3>
+                    <p class="card-desc">探讨AI时代下，产品经理需要具备的能力和发展方向...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-12-03</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://mp.weixin.qq.com/s/-VQ2z5d809F_Q0smRcCGrw" target="_blank" class="content-card">
+                <div class="card-image">
+                    <img src="images/invideo3.png" alt="产品解析| Invideo 3.0——新增AI生成视频功能">
+                </div>
+                <div class="card-content">
+                    <div class="card-tag">产品体验</div>
+                    <h3 class="card-title">产品解析| Invideo 3.0——新增AI生成视频功能</h3>
+                    <p class="card-desc">分析AI视频生成领域的最新发展动态和未来趋势...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-11-23</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="content-grid" id="jike-content">
+            <a href="https://m.okjike.com/originalPosts/675ee4048dc1346967948fa7" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">读书笔记</div>
+                    <h3 class="card-title">《The mom test》用户访谈方法论</h3>
+                    <p class="card-desc">分享用户访谈中的几个关键价值点，避免常见的访谈陷阱...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-01-20</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/675b85668d6dd8c09ca16b28" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">产品体验</div>
+                    <h3 class="card-title">Gemini 2.0实物识别能力测试</h3>
+                    <p class="card-desc">测试Gemini 2.0的实物识别能力，探讨其应用场景和局限性...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-01-15</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/673a9c2249692ef80afce02c" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">产品体验</div>
+                    <h3 class="card-title">ChatGPT语音对话模式体验</h3>
+                    <p class="card-desc">分享使用ChatGPT语音对话的优势和实际应用场景...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-01-10</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/6737d1808dc1346967f1e8c7" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">产品思考</div>
+                    <h3 class="card-title">AI时代PM的核心竞争力</h3>
+                    <p class="card-desc">探讨AI时代下产品经理的核心竞争力和发展方向...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-01-05</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/673615e9edd9193addbfcca9" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">行业观察</div>
+                    <h3 class="card-title">数据中台的困境&AI大数据的机会</h3>
+                    <p class="card-desc">分析数据中台面临的挑战和可能的转型方向...</p>
+                    <div class="card-meta">
+                        <span class="date">2024-01-01</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/67303b4f8c11a7e7b58abbe6" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">产品思考</div>
+                    <h3 class="card-title">竞品分析与创新</h3>
+                    <p class="card-desc">看多了竞品容易感觉啥方向、场景、功能都有人在做...</p>
+                    <div class="card-meta">
+                        <span class="date">2023-12-25</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/671c6032dcd2a5429139e461" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">好文分享</div>
+                    <h3 class="card-title">AI大模型航海我们身在何处 将驶向何方</h3>
+                    <p class="card-desc">对于创业公司来说，更大的机会在于找到目前有需求，但...</p>
+                    <div class="card-meta">
+                        <span class="date">2023-12-20</span>
+                    </div>
+                </div>
+            </a>
+            <a href="https://m.okjike.com/originalPosts/6678e07b6b1717f37ea954d0" target="_blank" class="content-card">
+                <div class="card-content">
+                    <div class="card-tag">好文分享</div>
+                    <h3 class="card-title">AI产品经理和产品经理的核心区别</h3>
+                    <p class="card-desc">是不是一定要读论文: 看个人背景，如果已经有一些技术知识积累...</p>
+                    <div class="card-meta">
+                        <span class="date">2023-12-15</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="content-grid" id="video-content">
+            <div class="content-card video-card">
+                <a href="https://www.bilibili.com/video/BV1VbFNebEKJ" target="_blank" class="video-link">
+                    <div class="video-thumbnail">
+                        <img src="images/video1.png" alt="视频缩略图">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">The Eternal Night Descends 永夜降临</h3>
+                    <p class="card-desc">克苏鲁苏醒主题预告片，全球AI视频大赛Project Odyssey-Season2 参赛作品</p>
+                    <div class="video-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 2:29</span>
+                        <a href="https://www.bilibili.com/video/BV1VbFNebEKJ" target="_blank" class="watch-btn">观看视频</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card video-card">
+                <a href="https://www.bilibili.com/video/BV1abFNebEfE/" target="_blank" class="video-link">
+                    <div class="video-thumbnail">
+                        <img src="images/video2.png" alt="海底探索视频缩略图">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">Sean的海底探索</h3>
+                    <p class="card-desc">Sean在海底龙宫探宝的故事，碰到的各种奇珍异兽...</p>
+                    <div class="video-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 1:58</span>
+                        <a href="https://www.bilibili.com/video/BV1abFNebEfE/" target="_blank" class="watch-btn">观看视频</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card video-card">
+                <a href="https://www.bilibili.com/video/BV1GbFNebE6Y" target="_blank" class="video-link">
+                    <div class="video-thumbnail">
+                        <img src="images/video3.png" alt="伊利冰工厂视频缩略图">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">伊利冰工厂</h3>
+                    <p class="card-desc">探索现代化冰淇淋生产工艺，展现工业美学...</p>
+                    <div class="video-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 0:33</span>
+                        <a href="https://www.bilibili.com/video/BV1GbFNebE6Y" target="_blank" class="watch-btn">观看视频</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card video-card">
+                <a href="https://www.bilibili.com/video/BV1VbFNebENJ" target="_blank" class="video-link">
+                    <div class="video-thumbnail">
+                        <img src="images/video4.png" alt="人脸Lora探索视频缩略图">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">可灵人脸Lora能力探索</h3>
+                    <p class="card-desc">探索AI人脸生成技术的潜力与应用场景...</p>
+                    <div class="video-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 1:21</span>
+                        <a href="https://www.bilibili.com/video/BV1VbFNebENJ" target="_blank" class="watch-btn">观看视频</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-card video-card">
+                <a href="https://www.bilibili.com/video/BV1YbFNebEY5" target="_blank" class="video-link">
+                    <div class="video-thumbnail">
+                        <img src="images/video5.png" alt="心与心的连接视频缩略图">
+                        <div class="play-button">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                </a>
+                <div class="card-content">
+                    <h3 class="card-title">心与心的连接</h3>
+                    <p class="card-desc">探讨人与人之间情感的联系，展现温暖的人文关怀...</p>
+                    <div class="video-meta">
+                        <span class="duration"><i class="fas fa-clock"></i> 0:52</span>
+                        <a href="https://www.bilibili.com/video/BV1YbFNebEY5" target="_blank" class="watch-btn">观看视频</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式 -->
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <div class="contact-content">
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <img src="images/微信.png" alt="微信" class="social-icon">
+                    <div class="qr-code">
+                        <img src="images/wechatscan.png" alt="微信二维码">
+                    </div>
+                </a>
+                <a href="https://web.okjike.com/me" target="_blank" class="social-link">
+                    <img src="images/即刻.png" alt="即刻" class="social-icon">
+                    <div class="qr-code">
+                        <img src="images/jikescancode.png" alt="即刻二维码">
+                    </div>
+                </a>
+                <a href="https://www.xiaohongshu.com/user/profile/62259d3e000000001000f60e" target="_blank" class="social-link">
+                    <img src="images/小红书.png" alt="小红书" class="social-icon">
+                    <div class="qr-code">
+                        <img src="images/xiaohongshuscan.jpg" alt="小红书二维码">
+                    </div>
+                </a>
+                <a href="mailto:1499106205@qq.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <div class="qr-code email-popup">
+                        <span>1499106205@qq.com</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>&copy; 2024 Sean_Shenghao. All rights reserved.</p>
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    <button id="back-to-top" title="返回顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html> 
